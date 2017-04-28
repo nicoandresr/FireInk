@@ -1,3 +1,78 @@
-page-login {
+.fi-login {
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/img/bg_login.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__logo {
+        width: 237px;
+        height: 255px;
+        margin: 1em 0;
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__login {
+        padding: 2em .5em;
+        width: 100%;
+        text-align: center;
+        &__txt {
+            color: #FFF;
+            font-size: 16px;
+        }
+        &__logs {
+            display: flex;
+            flex-direction: row;
+            &__face, &__google {
+                width: 50%;
+                padding: 1em;
+                margin: 1em 0;
+                font-size: 18px;
+                text-align: left;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    margin-right: .5em;
+                    &:before {
+                    font-size: 32px;  
+                    }
+                }
+                
+            } 
+            &__face {
+                border-right: 1px solid #FFF;
+            }
+        }
+    }
 
+
+    &__footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #2F2F2F;
+        padding: .4em 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__txt {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 100;
+        }
+        &__socials {
+            &__social {
+                text-decoration: none;
+                padding-left: .5em;
+            }
+        }
+    }
 }
+
