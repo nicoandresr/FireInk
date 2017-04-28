@@ -11,14 +11,13 @@ import { LoginPage } from '../pages/login/login';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-
 const config = {
-  apiKey: "AIzaSyBXoAT9uwHU6CmsuVtcRrx5MF1Pwbbab0k",
-  authDomain: "fireink-165521.firebaseapp.com",
-  databaseURL: "https://fireink-165521.firebaseio.com",
-  projectId: "fireink-165521",
-  storageBucket: "fireink-165521.appspot.com",
-  messagingSenderId: "883087913360"
+  apiKey: "AIzaSyA6q-vRX6nkFJDOpAh5to32D4oyYBn6lns",
+  authDomain: "fireink-d76ba.firebaseapp.com",
+  databaseURL: "https://fireink-d76ba.firebaseio.com",
+  projectId: "fireink-d76ba",
+  storageBucket: "fireink-d76ba.appspot.com",
+  messagingSenderId: "551881767168"
 };
 
 @NgModule({
