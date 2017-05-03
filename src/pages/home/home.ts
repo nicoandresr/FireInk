@@ -9,7 +9,6 @@ import { LoginPage } from '../login/login';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    window.localStorage.removeItem('currentuser');
     if(!this.isLoggedIn()) {
       console.log('You are not logged in');
       this.navCtrl.push(LoginPage);

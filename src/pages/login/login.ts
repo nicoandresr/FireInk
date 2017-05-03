@@ -8,28 +8,17 @@ import { AuthProviders, AuthMethods, AngularFire } from 'angularfire2';
 })
 export class LoginPage {
 
-  email: string;
-  password: string;
-
   constructor(public navCtrl: NavController, public navParams: NavParams, public angfire: AngularFire) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad Login');
-  }
-
-  login() {
+  public googleLogin(): void {
     this.angfire.auth.login({
-      email: this.email,
-      password: this.password
-    },
-    {
-      provider: AuthProviders.Password,
-      method: AuthMethods.Password
+      provider: AuthProviders.Google,
+      method: AuthMethods.Popup
     }).then((response) => {
       console.log('login success ' + JSON.stringify(response));
       let currentUser = {
-        email: response.auth.email,
+        email: response.auth.displayName,
         photo: response.auth.photoURL
       }
       window.localStorage.setItem('currentuser', JSON.stringify(currentUser)); 
@@ -39,7 +28,7 @@ export class LoginPage {
     });
   }
 
-  facebooklogin() {
+  public facebookLogin(): void {
     this.angfire.auth.login({
       provider: AuthProviders.Facebook,
       method: AuthMethods.Popup
