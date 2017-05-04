@@ -8,6 +8,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
 
+import { FiNavbar } from '../components/fi-navbar/fi-navbar';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -25,7 +27,8 @@ const config = {
     MyApp,
     HomePage,
     LoginPage,
-    ListPage
+    ListPage,
+    FiNavbar
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ const config = {
     MyApp,
     HomePage,
     LoginPage,
-    ListPage
+    ListPage,
+    FiNavbar
   ],
   providers: [
     StatusBar,

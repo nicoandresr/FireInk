@@ -1,0 +1,15 @@
+.fi-navbar {
+    display: block;
+    background: #C03838;
+    text-align: right;
+    padding: .5em;
+    font-size: 24px;
+    &__opt {
+        background: transparent;
+        text-align: center;
+        i:before {
+            font-size: 24px;    
+            color: #FFFFFF;
+        }
+    }
+}

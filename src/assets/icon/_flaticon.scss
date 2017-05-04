@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 27/04/2017 05:51
+    Creation date: 04/05/2017 06:04
     */
 
     @font-face {
@@ -36,8 +36,32 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-google-plus-circular-button:before { content: "\f100"; }
-.flaticon-social-facebook-circular-button:before { content: "\f101"; }
+    .flaticon-menu-button:before { content: "\f100"; }
+.flaticon-markers:before { content: "\f101"; }
+.flaticon-sailor-skull:before { content: "\f102"; }
+.flaticon-idea:before { content: "\f103"; }
+.flaticon-paint-brush:before { content: "\f104"; }
+.flaticon-speech-bubble-1:before { content: "\f105"; }
+.flaticon-logout:before { content: "\f106"; }
+.flaticon-speech-bubble:before { content: "\f107"; }
+.flaticon-heart-1:before { content: "\f108"; }
+.flaticon-heart:before { content: "\f109"; }
+.flaticon-layout:before { content: "\f10a"; }
+.flaticon-search:before { content: "\f10b"; }
+.flaticon-google-plus-circular-button:before { content: "\f10c"; }
+.flaticon-social-facebook-circular-button:before { content: "\f10d"; }
     
-    $font-Flaticon-google-plus-circular-button: "\f100";
-    $font-Flaticon-social-facebook-circular-button: "\f101";
+    $font-Flaticon-menu-button: "\f100";
+    $font-Flaticon-markers: "\f101";
+    $font-Flaticon-sailor-skull: "\f102";
+    $font-Flaticon-idea: "\f103";
+    $font-Flaticon-paint-brush: "\f104";
+    $font-Flaticon-speech-bubble-1: "\f105";
+    $font-Flaticon-logout: "\f106";
+    $font-Flaticon-speech-bubble: "\f107";
+    $font-Flaticon-heart-1: "\f108";
+    $font-Flaticon-heart: "\f109";
+    $font-Flaticon-layout: "\f10a";
+    $font-Flaticon-search: "\f10b";
+    $font-Flaticon-google-plus-circular-button: "\f10c";
+    $font-Flaticon-social-facebook-circular-button: "\f10d";
