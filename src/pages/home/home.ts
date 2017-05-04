@@ -21,4 +21,6 @@ export class HomePage {
     }
   }
 
+  public doTakePicture() {
+  }
 }
